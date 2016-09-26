@@ -14,6 +14,8 @@ import tempfile
 import time
 import sys
 
+print 'parent pid:', os.getpid()
+
 script = '''#!/bin/sh
 echo "Shell script in process $$"
 set -x

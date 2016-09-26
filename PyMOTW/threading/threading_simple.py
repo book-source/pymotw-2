@@ -18,4 +18,6 @@ threads = []
 for i in range(5):
     t = threading.Thread(target=worker)
     threads.append(t)
+    print threads
     t.start()
+print threads

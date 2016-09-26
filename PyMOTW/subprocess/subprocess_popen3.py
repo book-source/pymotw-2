@@ -22,3 +22,4 @@ msg = 'through stdin to stdout'
 stdout_value, stderr_value = proc.communicate(msg)
 print '\tpass through:', repr(stdout_value)
 print '\tstderr      :', repr(stderr_value)
+print dir(proc)
